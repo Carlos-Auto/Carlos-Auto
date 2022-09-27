@@ -95,7 +95,7 @@ form {
     position: absolute;
     margin-right: -118px;
     margin-top: 30px;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #fff;
@@ -171,7 +171,7 @@ form .corps-formulaire .centre .groupe textarea {
     height: 82%;
 }
 form .pied-formulaire button {
-    margin-top: -9px;
+    margin-top: 20px;
     background-color: #747cdf;
     color: white;
     font-size: 15px;
@@ -189,12 +189,11 @@ form .pied-formulaire button:hover {
 }
 
 @media screen and (max-width: 767px) {
-    body {
-        width: 241%;  
+    form .corps-formulaire .droite, .gauche, .centre {
+        margin-left: 0;
     }
     form {
-        width: 200%;
-        top: 90%;
-        left: 120%;
+        margin-left: 0;
+        top: 50%;
     }
 }

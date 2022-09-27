@@ -193,8 +193,11 @@ form .pied-formulaire button:hover {
         width: 241%;  
     }
     form {
-        width: 200%;
-        top: 90%;
-        left: 120%;
+        width: 93%;
+        top: 146%;
+        left: 123%;
+    }
+    form .corps-formulaire .place {
+        padding-top: 25px;
     }
 }
