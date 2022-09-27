@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(image/Réparation.webp);
+    background-size: cover;
+    font-family: sans-serif;
+}
+.menu {
+    background: rgb(1, 0, 54);
+    text-align: center;
+    width: 100%;
+}
+.menu ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.menu ul li {
+    width: 230px;
+    margin: 28px;
+    padding: 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.active, .menu ul li:hover {
+    background: rgb(64, 130, 246);
+    border-radius: 3px;
+}
+
+.menu .fa {
+    margin-right: 20px;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+}
+
+.menu ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background: rgb(1, 0, 54);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu ul li:hover .sub-menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu ul li:hover .sub-menu ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu ul li:hover .sub-menu ul li:last-child {
+    border-bottom: none;
+}
+
+.menu ul li:hover .sub-menu ul li a:hover {
+    color: rgb(179, 236, 247);
+}
+
+h2 {
+    margin-bottom: -30px;
+    padding-top: 30px;
+}
+
+.fa-solid, .fas {
+    font-weight: 900;
+    padding-right: 15px;
+}
+
+
+
+/*important*/
+.list {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.list1 {
+    margin: 15px;
+}
+
+.list .list1 {
+    display: inline-flex;
+}
+
+.p1, .p2 {
+    margin: 15px;
+    font-size: xx-large;
+}
+
+.p1{
+    background-color: #000000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/Mécanique.webp);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 1em;
+    display: flex;
+    width: 495px;
+    height: 137px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.p2{
+    background-color: #000000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/Carrosserie.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 1em;
+    display: flex;
+    width: 495px;
+    height: 137px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.p3 {
+    margin-left: 280px;
+    font-size: xx-large;
+    background-color: #000000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/Révision.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 1em;
+    display: flex;
+    width: 495px;
+    height: 137px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.list .p1:hover, .p2:hover, .p3:hover {
+    transform: scale(1.05);
+}
+
+a {
+    text-decoration: none;
+}
+
+.introB {
+    font-style: italic;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+
+
+/*important*/
+.liste {
+    background: rgb(1, 0, 54);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.liste ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.liste ul li {
+    width: 230px;
+    margin: 28px;
+    padding: 15px;
+}
+
+@media screen and (max-width:767px) {
+    body {
+        width: 100%;
+        padding: 0px;
+    }
+    .logo {
+        margin-left: 60px;
+    }
+    .menu {
+        width: 100%;
+    }
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+    .list .list1 {
+        width: 100%;
+        flex-direction: column;
+        margin-left: 90px;
+    }
+    
+    .p1 {
+        margin-bottom: 15px;
+    }
+    .p3 {
+        display: table-cell;
+    }
+    .p1, .p2, .p3 {
+        width: 356px;
+        margin-left: -90px;
+    }
+
+    .liste {
+        width: 100%;
+    }
+    .liste ul {
+        flex-direction: column;
+        text-align: justify;
+    }
+
+}
