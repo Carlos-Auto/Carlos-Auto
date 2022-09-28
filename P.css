@@ -260,6 +260,14 @@ a {
         flex: auto;
         width: 100%;
     }
+
+    .sub, .menu ul li:hover {
+        background: rgb(64, 130, 246);
+    }
+
+    .menu ul li:hover .sub-menu {
+        margin-left: -63px;
+    }
     
     .p1 {
         margin-bottom: 15px;
