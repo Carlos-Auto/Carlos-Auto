@@ -263,6 +263,7 @@ a {
 
     .sub, .menu ul li:hover {
         background: rgb(64, 130, 246);
+        border-radius: 3px;
     }
 
     .menu ul li:hover .sub-menu {
