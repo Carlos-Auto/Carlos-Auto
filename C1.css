@@ -189,15 +189,15 @@ form .pied-formulaire button:hover {
 }
 
 @media screen and (max-width: 767px) {
-    body {
-        width: 241%;  
+    form .corps-formulaire .droite, .gauche, .centre {
+        margin-left: 0;
+        flex: auto;
     }
     form {
-        width: 93%;
-        top: 146%;
-        left: 123%;
+        margin-left: 0;
+        top: 60%;
+        flex: auto;
     }
-    form .corps-formulaire .place {
-        padding-top: 25px;
+    .place {padding-top: 30px;
     }
 }
