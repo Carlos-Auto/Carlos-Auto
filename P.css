@@ -177,6 +177,10 @@ h2 {
     transition: transform 0.5s;
 }
 
+.a {
+    display: flex;
+}
+
 h3 {
     font-weight: bold;
 }
@@ -223,15 +227,23 @@ a {
         padding: 0px;
     }
     .logo {
-        margin-left: 60px;
+        margin-left: -20px;
+        width: 100%;
+        padding: 0px;
     }
     .menu {
         width: 100%;
+        background-color: rgb(0, 0, 0);
     }
     .menu ul {
         display: flex;
         flex-direction: column;
         margin-left: 5px;
+    }
+    .menu ul li {
+        width: 224px;
+        margin: 15px;
+        padding: 5px;
     }
     .list {
         width: 90%;
@@ -241,6 +253,12 @@ a {
         width: 100%;
         flex-direction: column;
         margin-left: -16px;
+    }
+    .a {
+        display: flex;
+        margin-left: -20px;
+        flex: auto;
+        width: 100%;
     }
     
     .p1 {
