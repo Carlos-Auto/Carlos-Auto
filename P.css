@@ -10,7 +10,7 @@ body {
     font-family: sans-serif;
 }
 .menu {
-    background: rgb(1, 0, 54);
+    background: rgb(0, 0, 0);
     text-align: center;
     width: 100%;
 }
@@ -295,7 +295,6 @@ a {
         align-self: flex-end;
     }
 }
-
 
 
 
