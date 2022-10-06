@@ -13,12 +13,15 @@
 
     <body>
         
-
+        <a href="index.html"><button>Retourner à l'acceuil</button></a>
 
         <form action="https://formsubmit.co/ba1089d97011bf85e70a01ab2e1614a5" method="POST" >
             <h1>Contactez-nous</h1>
             <div class="separation"></div>
             <div class="corps-formulaire">
+                <div>
+                    <input type="hidden" name="_next" value="https://carlos-location.github.io/Carlos-Location/index.html">
+                </div>
                 <div>
                     <input type="hidden" name="_captcha" value="false">
                 </div>
@@ -26,30 +29,27 @@
                     <input type="hidden" name="_template" value="box">
                 </div>
                 <div>
-                    <input type="hidden" name="_subject" value="Rendez-vous : Mécanique">
+                    <input type="hidden" name="_subject" value="Demande de reservation">
                 </div>
                 <div class="gauche">
                     <div class="groupe">
                         <label>Nom / Prénom</label>
-                        <input type="text" name="Nom / Prénom" placeholder="Votre Nom / Prénom" required>
+                        <input type="text" name="Nom / Prénom" placeholder="Votre Nom / Prénom" required="">
                         <i class="fa-solid fa-user"></i>
                     </div>
                     <div class="groupe">
                         <label>Email</label>
-                        <input type="email" name="Email" placeholder="Votre adresse email" required>
+                        <input type="email" name="Email" placeholder="Votre adresse email" required="">
                         <i class="fa-solid fa-envelope"></i>
                     </div>
                     <div class="groupe">
                         <label>Adresse</label>
-                        <input type="text" name="Adresse" placeholder="Votre adresse" required>
+                        <input type="text" name="Adresse" placeholder="Votre adresse" required="">
                         <i class="fa-solid fa-location-dot"></i>
                     </div>
-                </div>
-
-                <div class="droite">
                     <div class="groupe">
                         <label>Code postal / Ville</label>
-                        <input type="text" name="Code postal / Ville" placeholder="Votre Code postal / Ville" required>
+                        <input type="text" name="Code postal / Ville" placeholder="Votre Code postal / Ville" required="">
                         <i class="fa-solid fa-location-arrow"></i>
                     </div>
                     <div class="groupe">
@@ -57,24 +57,25 @@
                         <input type="text" name="numéro de Téléphone" placeholder="Votre numéro de téléphone" required>
                         <i class="fa-solid fa-phone"></i>
                     </div>
+    
+                    
                     <div class="groupe">
                         <label>Immatriculation</label>
-                        <input type="text" name="N° d'Immatriculation" placeholder="Votre n° d'immatriculation" required>
+                        <input type="text" name="N° d'Immatriculation" placeholder="Votre n° d'immatriculation" required="">
                         <i class="fa-solid fa-car"></i>
                     </div>
-                </div>
 
-                <div class="centre">
-                    <div class="groupe">
-                        <label>Message</label>
-                        <textarea type="text" name="Message" placeholder="Ecrivez votre message ici..." required ></textarea>
+                    <div class="centre">
+                        <div class="groupe">
+                            <label>Message</label>
+                            <textarea type="text" name="Message" placeholder="Précisez quel est le soucis..." required ></textarea>
+                        </div>
                     </div>
-                </div>
-            </div>
+                    
                 
             <div class="pied-formulaire" align="center">
                 <button type="submit">Envoyer le message</button>
             </div>
        </form>
     </body>
-</html>
+    </html>
