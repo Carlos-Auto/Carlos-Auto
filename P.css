@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body {
     background-image: url(image/Réparation.webp);
     background-size: cover;
@@ -19,18 +18,15 @@ body {
     list-style: none;
     color: #fff;
 }
-
 .menu ul li {
     width: 230px;
     margin: 28px;
     padding: 15px;
 }
-
 .menu ul li a {
     text-decoration: none;
     color: #fff;
 }
-
 .active, .menu ul li:hover {
     background: rgb(64, 130, 246);
     border-radius: 3px;
@@ -44,11 +40,9 @@ body {
 .menu .fa {
     margin-right: 20px;
 }
-
 .sub-menu {
     display: none;
 }
-
 .logo{
     width: 200px;
     height: 100px;
@@ -57,7 +51,6 @@ body {
     padding-bottom: 15px;
     padding-left: 0px;
 }
-
 .menu ul li:hover .sub-menu {
     display: block;
     position: absolute;
@@ -65,12 +58,10 @@ body {
     margin-top: 15px;
     margin-left: -15px;
 }
-
 .menu ul li:hover .sub-menu ul {
     display: block;
     margin: 10px;
 }
-
 .menu ul li:hover .sub-menu ul li {
     width: 150px;
     padding: 10px;
@@ -79,47 +70,36 @@ body {
     border-radius: 0;
     text-align: left;
 }
-
 .menu ul li:hover .sub-menu ul li:last-child {
     border-bottom: none;
 }
-
 .menu ul li:hover .sub-menu ul li a:hover {
     color: rgb(179, 236, 247);
 }
-
 h2 {
     margin-bottom: -30px;
     padding-top: 30px;
 }
-
 .fa-solid, .fas {
     font-weight: 900;
     padding-right: 15px;
 }
-
-
-
 /*important*/
 .list {
     display: flex;
     justify-content: center;
     padding-top: 20px;
 }
-
 .list1 {
     margin: 15px;
 }
-
 .list .list1 {
     display: inline-flex;
 }
-
 .p1, .p2 {
     margin: 15px;
     font-size: xx-large;
 }
-
 .p1{
     background-color: #000000;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/Mécanique.webp);
@@ -139,7 +119,6 @@ h2 {
     cursor: pointer;
     transition: transform 0.5s;
 }
-
 .p2{
     background-color: #000000;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/Carrosserie.jpg);
@@ -159,7 +138,6 @@ h2 {
     cursor: pointer;
     transition: transform 0.5s;
 }
-
 .p3 {
     margin-left: 280px;
     font-size: xx-large;
@@ -181,40 +159,41 @@ h2 {
     cursor: pointer;
     transition: transform 0.5s;
 }
-
 .a {
     display: flex;
 }
-
 h3 {
     font-weight: bold;
 }
-
 .list .p1:hover, .p2:hover, .p3:hover {
     transform: scale(1.05);
 }
-
 a {
     text-decoration: none;
 }
-
 .introB {
     font-style: italic;
     margin-bottom: 10px;
     font-weight: bold;
 }
-
-
-
-
 /*important*/
+
+
+
+
+
+h4 {
+    color: beige;
+    width: 100%;
+    background: linear-gradient(45deg, black, transparent);
+}
 footer {
-    background: wheat; 
+    background: wheat;
 }
 
 #info {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
 }
 .titre4 {
     margin-right: 60px
@@ -230,11 +209,6 @@ footer #info .titre4 ul li {
     list-style-type: none;
     line-height: 1.8em;
 }
-h4 {
-    color: beige;
-    width: 100%;
-    background: linear-gradient(45deg, black, transparent);
-}
 footer #info .titre4 ul li p {
     font-weight: bold;
     font-style: italic;
@@ -245,96 +219,80 @@ footer #info .titre4 ul li a {
     font-style: italic;
 }
 
-@media screen and (min-width:426px) and (max-width:861px) {
-    footer {
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    body {
         width: 100%;
-        width: 1004PX;
+        padding: 0px;
     }
-    
+    .logo {
+        margin-left: -20px;
+        width: 100%;
+        padding: 0px;
+    }
     .menu {
         width: 100%;
-        WIDTH: 1004PX;
+        background-color: rgb(0, 0, 0);
     }
-
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+    .menu ul li {
+        width: 224px;
+        margin: 15px;
+        padding: 5px;
+    }
     .list {
+        width: 90%;
+        margin-left: 20px;
+    }
+    .list .list1 {
         width: 100%;
-        WIDTH: 1004PX;
+        flex-direction: column;
+        margin-left: -16px;
+    }
+    .a {
+        display: flex;
+        margin-left: -20px;
+        flex: auto;
+        width: 100%;
+    }
+    .sub, .menu ul li:hover {
+        background: rgb(64, 130, 246);
+        border-radius: 3px;
+    }
+    .menu ul li:hover .sub-menu {
+        margin-left: -71px;
     }
     
-    .p1, .p2 {
-        width: 345px;
+    .p1 {
+        margin-bottom: 15px;
     }
-
     .p3 {
-        WIDTH: 722px;
-        MARGIN-LEFT: 29px;
+        display: table-cell;
     }
-    footer #info {
+    .p1, .p2, .p3 {
+        width: 280px;
+        margin-left: 17px;
+    }
+    .liste {
         width: 100%;
-        margin: 0 auto;
-        display: block;
     }
-    footer #info .titre4 {
-        width: 100%;
-        margin: 0 auto;
+    .liste ul {
+        flex-direction: column;
+        text-align: justify;
     }
-    footer #info .titre4 h4{
-        width: 100%;
-        margin: 0 auto;
+    .c {
+        align-self: flex-end;
     }
-    footer #info .titre4 h4 ul {
-        width: 100%;
-        margin: 0 auto;
-    }
-    footer #info .titre4 h4 ul li{
-        width: 100%;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (max-width:425px) {
-    footer {
-        width: 100%;
-        width: 1004PX;
-    }
-    
-    .menu {
-        width: 100%;
-        WIDTH: 1004PX;
-    }
-
-    .list {
-        width: 100%;
-        WIDTH: 1004PX;
-    }
-    
-    .p1, .p2 {
-        width: 345px;
-    }
-
-    .p3 {
-        WIDTH: 722px;
-        MARGIN-LEFT: 29px;
-    }
-    footer #info {
-        width: 100%;
-        margin: 0 auto;
-        display: block;
-    }
-    footer #info .titre4 {
-        width: 100%;
-        margin: 0 auto;
-    }
-    footer #info .titre4 h4{
-        width: 100%;
-        margin: 0 auto;
-    }
-    footer #info .titre4 h4 ul {
-        width: 100%;
-        margin: 0 auto;
-    }
-    footer #info .titre4 h4 ul li{
-        width: 100%;
-        margin: 0 auto;
+    .m {
+        align-self: flex-end;
     }
 }
