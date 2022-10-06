@@ -244,3 +244,97 @@ footer #info .titre4 ul li a {
     color: black;
     font-style: italic;
 }
+
+@media screen and (min-width:426px) and (max-width:861px) {
+    footer {
+        width: 100%;
+        width: 1004PX;
+    }
+    
+    .menu {
+        width: 100%;
+        WIDTH: 1004PX;
+    }
+
+    .list {
+        width: 100%;
+        WIDTH: 1004PX;
+    }
+    
+    .p1, .p2 {
+        width: 345px;
+    }
+
+    .p3 {
+        WIDTH: 722px;
+        MARGIN-LEFT: 29px;
+    }
+    footer #info {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+    footer #info .titre4 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    footer #info .titre4 h4{
+        width: 100%;
+        margin: 0 auto;
+    }
+    footer #info .titre4 h4 ul {
+        width: 100%;
+        margin: 0 auto;
+    }
+    footer #info .titre4 h4 ul li{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:425px) {
+    footer {
+        width: 100%;
+        width: 1004PX;
+    }
+    
+    .menu {
+        width: 100%;
+        WIDTH: 1004PX;
+    }
+
+    .list {
+        width: 100%;
+        WIDTH: 1004PX;
+    }
+    
+    .p1, .p2 {
+        width: 345px;
+    }
+
+    .p3 {
+        WIDTH: 722px;
+        MARGIN-LEFT: 29px;
+    }
+    footer #info {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+    footer #info .titre4 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    footer #info .titre4 h4{
+        width: 100%;
+        margin: 0 auto;
+    }
+    footer #info .titre4 h4 ul {
+        width: 100%;
+        margin: 0 auto;
+    }
+    footer #info .titre4 h4 ul li{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
