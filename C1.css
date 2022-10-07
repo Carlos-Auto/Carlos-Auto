@@ -166,3 +166,9 @@ button {
 button:hover {
     transform: scale(1.05);
 }
+h2 {
+    padding-top: 10px;
+    font-size: large;
+    font-style: italic;
+    text-decoration: underline;
+}
