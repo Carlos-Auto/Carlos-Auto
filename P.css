@@ -195,6 +195,7 @@ footer {
 #info {
     display: flex;
     flex-direction: column;
+    margin-left: 43px;
 }
 .titre4 {
     margin-right: 60px
@@ -209,6 +210,7 @@ h4 {
 footer #info .titre4 ul li {
     list-style-type: none;
     line-height: 1.8em;
+    margin-left: 40px;
 }
 footer #info .titre4 ul li p {
     font-weight: bold;
