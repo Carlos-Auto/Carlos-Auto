@@ -195,7 +195,7 @@ footer {
 #info {
     display: flex;
     flex-direction: column;
-    margin-left: 43px;
+    margin-left: -43px;
 }
 .titre4 {
     margin-right: 60px
